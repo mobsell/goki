@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/* ====↓共通部分↓==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+body {font-family: 'Montserrat Alternates';}
+a {text-decoration: none;}
+img {max-width: 100%;}
+/* ====↑共通部分↑==== */
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+}
+
+.logo {
+  height: 37px;
+  width: 184px;
+  padding: 36px 0 0 62px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.icon {
+  position: relative;
+}
+
+.main-icon {
+  display: inline-block;
+  margin: 100px auto 0 auto;
+  width: 200px;
+}
+
+.shadow {
+  position: absolute;
+  bottom: -40px;
+  left: 38%;
+  display: inline-block;
+
+}
+
+.main-messeage {
+  margin-top: 45px;
+  font-family: 'Gilroy';
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.sub-messeage {
+  margin-top: 15px;
+  font-family: 'Gilroy';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #727272;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 46px;
+  font-family: 'Gilroy';
+  margin-top: 20px;
+  color: #fff;
+  width: 225px;
+  height: 46px;
+  background: #52C2CA;
+  border-radius: 12px;
+}
